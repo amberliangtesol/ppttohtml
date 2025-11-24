@@ -134,7 +134,7 @@ function App() {
   }, []);
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden bg-gray-900">
+    <div className="relative w-screen h-screen overflow-hidden bg-white">
       <div className="absolute top-4 right-4 z-50 flex gap-3">
         <button
           onClick={toggleFullscreen}
@@ -170,7 +170,7 @@ function App() {
         </button>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-40 bg-gray-800/80 backdrop-blur px-4 py-2 rounded-full">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-40 bg-gray-800/90 backdrop-blur px-4 py-2 rounded-full">
         <p className="text-white text-sm">
           {currentSlide + 1} / {slidesData.length} · 使用方向鍵切換投影片
         </p>
